@@ -31,7 +31,7 @@ h1, h2, h3, p, a{
 }
 
 .jumbotron{
-  background: linear-gradient(0deg, #b3d7e6, #f9d0c8);
+  background: linear-gradient(180deg, #b3d7e6, #f9d0c8);
   /*
   background: url(./top.png);
 	background-size: cover;
