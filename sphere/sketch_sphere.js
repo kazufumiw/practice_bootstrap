@@ -8,7 +8,7 @@ var framecount = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  radius = windowHeight/2-10;
+  radius = min(windowHeight/2-10, windowWidth/2-10);
   colorMode(HSB, 360, 100, 100);
   blendMode(ADD);
   noStroke();
