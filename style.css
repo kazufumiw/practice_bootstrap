@@ -87,3 +87,10 @@ h1, h2, h3, p, a{
 .col-xs-1{
   border: 2px solid green;
 }
+
+.card:hover img{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
